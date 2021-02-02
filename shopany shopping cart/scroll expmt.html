@@ -1,0 +1,291 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+  <!-- fits the screen according to the device's width and height -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="utf-8">
+
+  <title>ShopAny</title>
+  <meta name="description" content="scroll">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="scrollkacss.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  <!--   font-family: 'Raleway', sans-serif;    -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <!-- font-family: 'Ubuntu Condensed', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+  <!-- font-family: 'Josefin Sans', sans-serif; -->
+  
+  <!-- simple text to <p> -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
+  <!-- font-family: 'Hind Madurai', sans-serif; -->
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+
+      <!-- navbar -->
+      <nav id="navbar">
+
+         <div class="nav-header">
+              <!--toggle bar  -->
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>  
+              <!-- logo -->
+              <h3 class="logo">shopAny</h3>
+        
+              <!-- cart btn -->
+              <div class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+
+         </div>
+
+      </nav>
+      
+ <header id="home">
+       <!-- links -->
+       <div class="links-container">
+        <ul class="links">
+          <li>
+            <a href="#home" class="scroll-link">home</a>
+          </li>
+          <li>
+            <a href="#about" class="scroll-link">about</a>
+          </li>
+          <li>
+            <a href="#services" class="scroll-link">services</a>
+          </li>
+          <li>
+            <a href="#products" class="scroll-link">products</a>
+          </li>
+          <!-- <li>
+              <a href="#tours" class="scroll-link">tours</a>
+          </li> -->
+
+        </ul>
+      </div>  
+
+
+     <div class="banner">
+            <div class="container">
+              <h2>ONLINE SHOPPING STORE</h2>
+              <p class="desc">Buy clothes, shoes, Shirts, etc you like by adding it to your cart.</p>
+                
+                <a href="#products" class="btn-white">explore products</a>
+            </div>
+      </div>
+      
+  </header>
+
+
+    <!-- product contact -->
+    <section id="products" class="section">
+      <div class="title">
+          <h2>featured <span>products</span></h2>
+
+        <section class="spot-container">
+          <!--**********************  -->
+          <!-- ******SPOT ITEMS*****-->
+          <!--**********************-->
+
+          <!-- item -->
+              <div class="spot" data-id="1">
+
+                <img src="./images/nike-joyride.jpg" class="spot-img" alt="${item.name} photo">
+                <div class="spot-info"> 
+                    <div class="spot-title">
+                    <h4 class="spot-name">Nike Joyride </h4>
+                    <h4 class="spot-price">Rs.2599</h4>
+                    </div>
+                     
+                </div>
+                <div class="order"> 
+                  <div class="spot-tags">
+                    <h5 class="tag-name">free delivery</h5>    
+                    
+                    <h5 class="tag-name">35% off</h5>
+                  </div>
+                  <button class="add-to-cart" data-id="1">Add to cart</button>
+                </div> 
+            </div>
+            <!-- end of item -->
+
+            <!-- item -->
+            <div class="spot" data-id="2">
+
+              <img src="./images/noway.JPG" class="spot-img" alt="${item.name} photo">
+              <div class="spot-info"> 
+                  <div class="spot-title">
+                  <h4 class="spot-name">No way chancey illa T-shirt</h4>
+                  <h4 class="spot-price">Rs.399</h4>
+                  </div>
+                   
+              </div>
+              <div class="order">
+                <div class="spot-tags">
+                  <h5 class="tag-name">free delivery</h5>    
+                   
+                  <h5 class="tag-name">35% off</h5>
+                </div>
+                <button class="add-to-cart" data-id="2">Add to cart</button>
+              </div> 
+          </div>
+          <!-- end of item -->
+
+          <!-- item --> 
+          <div class="spot" data-id="3">
+
+                <img src="./images/wrognjeans.JPG" class="spot-img" alt="${item.name} photo">
+                <div class="spot-info"> 
+                    <div class="spot-title">
+                    <h4 class="spot-name">Wrogn Jeans </h4>
+                    <h4 class="spot-price">Rs.1799</h4>
+                    </div>
+                     
+                </div>
+                <div class="order">
+                  <div class="spot-tags">
+                    <h5 class="tag-name">free delivery</h5>    
+                    
+                    <h5 class="tag-name">35% off</h5>
+                  </div>
+                  <button class="add-to-cart"  data-id="3">Add to cart</button>
+                </div> 
+            </div>
+            <!-- end of item -->
+
+            <!-- item -->
+            <div class="spot" data-id="4">
+
+                <img src="./images/gtshirt.JPG" class="spot-img" alt="${item.name} photo">
+                <div class="spot-info"> 
+                    <div class="spot-title">
+                    <h4 class="spot-name">Light green full T-shirt </h4>
+                    <h4 class="spot-price">Rs.599</h4>
+                    </div>
+                     
+                </div>
+                <div class="order">
+                  <div class="spot-tags">
+                    <h5 class="tag-name">free delivery</h5>    
+                     
+                    <h5 class="tag-name">36% off</h5>
+                  </div>
+                  <button class="add-to-cart" data-id="4">Add to cart</button>
+                </div> 
+            </div>
+            <!-- end of item -->
+            
+            <!-- item -->
+            <div class="spot" data-id="5">
+
+                <img src="./images/hoddie.JPG" class="spot-img" alt="${item.name} photo">
+                <div class="spot-info"> 
+                    <div class="spot-title">
+                    <h4 class="spot-name">Hoddie grey green for men </h4>
+                    <h4 class="spot-price">Rs.1600</h4>
+                    </div>
+                     
+                </div>
+                <div class="order">
+                  <div class="spot-tags">
+                    <h5 class="tag-name">free delivery</h5>    
+                     
+                    <h5 class="tag-name">32% off</h5>
+                  </div>
+                  <button class="add-to-cart" data-id="5">Add to cart</button>
+                </div> 
+            </div>
+            <!-- end of item -->
+            
+            <!-- item -->
+            <div class="spot" data-id="6">
+
+                <img src="./images/jacket.jpg" class="spot-img" alt="${item.name} photo">
+                <div class="spot-info"> 
+                    <div class="spot-title">
+                    <h4 class="spot-name">Denim jacket stylish </h4>
+                    <h4 class="spot-price">Rs.2999</h4>
+                    </div>
+                     
+                </div>
+                <div class="order">
+                  <div class="spot-tags">
+                    <h5 class="tag-name">free delivery</h5>    
+                     
+                    <h5 class="tag-name">40% off</h5>
+                  </div>
+                    <button class="add-to-cart" data-id="6">Add to cart</button>
+                </div> 
+            </div>
+            <!-- end of item -->
+            <!--*****************************-->
+            <!-- ******END OF SPOT ITEMS*****-->
+            <!--*****************************-->
+      </section>
+      </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class="copyright">
+      <p>
+        copyright &copy; ShopAny shopping cart company
+        <span id="date">2020</span>. all rights reserved
+      </p>
+    </footer>
+
+
+          <!-- cccccccc -->
+          <aside class="slidebar">
+
+              <button class="close_btn">
+                <i class="fa fa-window-close"></i>
+              </button>
+              <h3 class="cart-title">Your Cart</h3>
+              
+              <div class="cart-content">
+
+                <!-- cart item -->
+                 <!-- <div class="cart-item">
+                   <img src="images/thailand.jpg" alt="thai">
+
+                   <div class="cart-item-detail">
+                      <h4>Thailand</h4>
+                      <h5>Rs.30,999</h5>
+                      <span class="remove-item">remove</span>
+                   </div>
+                   <div class="cart-item-quantity">
+                     <i class="fas fa-chevron-up"></i>
+                     <p class="item-quantity">2</p>
+                     <i class="fas fa-chevron-down"></i>
+                   </div>
+
+                 </div> -->
+                
+                <!-- end of cart item -->
+              </div>
+              
+                <div class="cart-footer">
+                   <h3 style="letter-spacing: 0.10rem">Your Total : Rs.<span class="cart-total">0</span></h3>
+                   <button class="clear-cart">Clear cart</button>
+                </div>
+
+         </aside>
+          <!-- cccccccc -->
+  
+
+
+    <!-- back to top button = btt -->
+    <a href="#home" class="btt">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <script src="scrollkajs.js"></script>
+</body>
+</html>
